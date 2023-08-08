@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow-x:hidden;
+}
+
+main{
+    display: block;
+    justify-content: center;
+}
+
+.container1{
+    background-color: aqua;
+    height:46px;
+}
+
+.container2 {
+    background-color: gold;
+    height:46px;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: end;
+}
+
+.list ul{
+    display: flex;
+}
+
+
+.signin>img{
+    width: 30px;
+    height: 30px;
+}
+
+.container3 img{
+    width: 72px;
+    height: 48px;
+}
+
+.container3{
+    background-color: antiquewhite;
+    height: 76px;
+    display: flex;
+}
+
+
+.containera{
+    background-color: blue;
+    height:390px;
+}
+
+.containerb{
+    background-color:burlywood ;
+    height:323px;
+    margin-top:71px;
+}
+
+.containerc{
+    background-color:rebeccapurple ;
+    height:279px;
+}
+
+.containerd{
+    background-color:red ;
+    height:408px;
+    margin-top: 100px;
+}
+
+.containere{
+    background-color:yellowgreen ;
+    height:346px;
+    margin-top: 95px;
+}
+
+.containerf{
+    background-color: wheat;
+    height:341px;
+    margin-top: 97px;
+}
+
+.containerg{
+    background-color:cornflowerblue ;
+    height:147px;
+    margin-top: 98px;
+}
+.containerh{
+    background-color:forestgreen ;
+    height:393px;
+}
+.containerj{
+    background-color: hotpink;
+    height:71px;
+}
+
+.containeri{
+    background-color:lightcoral ;
+    height:71px;
+}
