@@ -116,11 +116,13 @@
 .containerb{
     max-height:600px;
     background-color:#F8F8FB;
-    padding: 40px 141px 40px 139px;
+    padding: 40px 139px 40px 80px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
-.containerb h2{
+h2{
     font-size: 34px;
 }
 
@@ -176,27 +178,103 @@
 }
 
 .containerd{
-    background-color:red ;
-    height:408px;
+    min-height:408px;
     margin-top: 100px;
     display: flex;
+    justify-content:space-around;
 }
 
 .TPAC{
-    width: 401px;
-    height: 504.1px;
+    width: 504px;
+    height: 401px;
+    display: flex;
+    flex-direction: column;
+}
+
+.TPAC p{
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+.visit{
+    border: #11629e 1.6px solid;
+    padding:10px 23px;
+    border-radius: 50px;
+    width: 239.05px;
+    height: 46px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+abbr{
+    text-decoration:underline dotted rgb(17, 17, 17);
+    text-underline-offset: 4px;
 }
 
 .containere{
-    background-color:yellowgreen ;
     height:346px;
-    margin-top: 95px;
+    display: flex;
+    justify-content: space-around;
 }
 
+.webstandard{
+    display: flex;
+    flex-direction: column;
+    width: 504px;
+    height: 300px;
+}
+
+.learnmore {
+    border: #11629e 1.9px solid;
+    border-radius: 50px;
+    padding:10px 23px;
+    width: 269px;
+    height: 46px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.webstandard p{
+    margin-top:30px;
+    font-size: 16px;
+    line-height: 24px;
+} 
+
 .containerf{
-    background-color: wheat;
     height:341px;
     margin-top: 97px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.getinvolved{
+    width:504px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+}
+
+.getinvolved p{
+    margin-top:30px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.waystoget{
+    border: #11629e 2px solid;
+    border-radius: 50px;
+    padding:10px 23px;
+    height: 46px;
+    width: 187px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 14px;
 }
 
 .containerg{

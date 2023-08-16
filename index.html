@@ -102,11 +102,13 @@
         </div>
     </div>
     <!-- Là on va entamer la troisième section de la page -->
+    <!-- Essayons de mettre chacun de ces éléments en display flex puis y ajouter un flex direction 
+    c'est pour séparer les éléments facilement-->
     <div class="containerd">
         <div class="TPAC">
-            <h1>W3C TPAC 2023</h1>
+            <h1 style="font-size:34px">W3C TPAC 2023</h1>
             <p>The W3C annual conference is an important event for 
-                the Web community. TPAC gathers in a single event the W3C
+                the Web community. <abbr title="Technical Plenary and Advisory Commity">TPAC</abbr> gathers in a single event the W3C
                 Members and Boards, W3C Working and Interest Groups meetings,
                 and a series of one-hour sessions brought by the attendees.
             </p>
@@ -114,37 +116,40 @@
                 means for W3C to coordinate solutions to technical issues that 
                 transcend group borders.</p>
             <p>Watch our short <a href="###">video</a> to learn more about TPAC.</p>
-            <a href="###">Visit this year's event page</a>
+            <a class="visit" href="###">Visit this year's event page</a>
         </div>
         <img src="img/W3c/tpac2023-home.jpg" alt="" width="504" height="335.81">
     </div>
+    <!-- Avec cette section aussi je vais essayer de faire un flex, flex-direction
+    et voir comment les blocs réagissent -->
     <div class="containere">
-        <img src="img/W3c/ryan-quintal-US9Tc9pKNBU-unsplash.jpg" alt="lego">
+        <img src="img/W3c/ryan-quintal-US9Tc9pKNBU-unsplash.jpg" alt="lego" width="504" height="336">
+    <!-- le faire surtout avec ce bloc -->
         <div class="webstandard">
-            <h1>Web Standards</h1>
+            <h2 >Web Standards</h2>
             <p>Web standards are the building blocks of a consistent digitally connected world. 
                 They are implemented in browsers, blogs, search engines, and other software that power 
-                our experience on the Web.
-                <br><br>
-                W3C is an international community where <a href="###">Member</a>, a full-time <a href="###">staff</a>, 
+                our experience on the Web.</p>
+            <p>W3C is an international community where <a href="###">Member</a>, a full-time <a href="###">staff</a>, 
                 and the public work together to develop web standards</p>
-            <a class="learnmore" href="###">Learn more about Webb standards</a>
+            <a class="learnmore" href="###">Learn more about Web standards</a>
         </div>
     </div>
     <div class="containerf">
-        <img src="img/W3c/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="computer">
+    <!-- reprendre l'action précédente -->
+        <img src="img/W3c/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="computer" width="504" height="335">
         <div class="getinvolved">
-            <h1>Get involved</h1>
+            <h2>Get involved</h2>
             <p>W3C works at the nexus of core technology, industry needs, and 
                 societal needs. Everyone can get involved with the work we do.
-                <br><br>
-                There are many ways individuals and organizations can participate
+            </p>
+            <p>There are many ways individuals and organizations can participate
                 in the Web Consortium to advance web standardization.</p>
             <a class="waystoget" href="###">Ways to get involved</a>
         </div>
     </div>
     <div class="containerg">
-        <h2>Latest news</h2>
+        <h2 class="latest">Latest news</h2>
         <p>Latest entries from across our <a href="###"></a>News<a href="###">
             Press Releases</a> or <a href="###">Blog</a>.</p>
     </div>
