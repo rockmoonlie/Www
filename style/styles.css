@@ -3,14 +3,28 @@
     padding:0;
     box-sizing:border-box;
     overflow-x:hidden;
+    font-family: 'Noto Sans', sans-serif;
+    
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Montserrat:wght@300&family=Noto+Sans:wght@100&family=Open+Sans&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
 
 .container1{
     background-color: #CBE0FB;
     height:40px;
     display: flex;
     align-items: center;
-    padding-left: 141px;
+    padding-left: 190px;
+    line-height:20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container1 a{
+    padding: 2px;
+    text-underline-offset: 3px;
+    color: #11629e;
 }
 
 .container2 {
@@ -20,13 +34,22 @@
     gap:20px;
     align-items: center;
     justify-content: end;
-    padding-right: 141px;
+    padding-right:190px;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+.container2 a{
+    color: black;
+    text-underline-offset: 3px;
+    font-weight: 400;
 }
 
 .list{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 83.5%;
     
 }
 
@@ -34,11 +57,25 @@
     display: flex;
     gap: 25px;
     align-items: center;
+    line-height: 27px;
 
 }
 
-.list li{
+.list li button{
     font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+}
+
+.list li{
+    border-bottom:solid 4px transparent ;
+    padding: 5px;
+}
+
+.list li:hover{
+    border-bottom:solid 4px #11629e;
+    padding: 5px; 
 }
 
 .container3>img{
@@ -56,17 +93,19 @@
     align-items: center;
     font-size: 14px;
     text-decoration: none;
+    color: #11629e;
 }
 
 .signin>img{
     border-radius: 50px;
-    border: solid 1px blue;
+    border: solid 1px #11629e;
 }
 
 .container3{
     height: 77.8px;
     display: flex;
     align-items: last baseline;
+    justify-content: center;
     width: 100%;
     gap: 30px;
     padding: 0 141px 4px 139px;
@@ -75,7 +114,6 @@
 
 
 .containera{
-    height:390px;
     display: flex;
     justify-content: center;
     padding-top: 70px;
@@ -91,6 +129,8 @@
 .webwork h1{
     font-size: 42px;
     margin-bottom:16px;
+    line-height:58.8px;
+    font-weight: 600;
 }
 
 .webwork>p{
@@ -102,6 +142,7 @@
 
 .webwork>a{
     font-size: 14px;
+    font-weight: 600;
     border: 1.6px solid #11629e;
     border-radius: 50px;
     padding:10px 23px;
@@ -113,49 +154,70 @@
     justify-content: center;
 }
 
+.webwork a{
+    color: #11629e;
+}
+
 .containerb{
-    max-height:600px;
     background-color:#F8F8FB;
-    padding: 40px 139px 40px 80px;
+    padding: 40px 0px 40px 0px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-}
+    align-items: center;
+}   
 
 h2{
     font-size: 34px;
+    line-height: 43px;
+    font-weight: 600;
 }
 
 .containerb p:first-of-type{
     font-size:16px;
     margin-top:16px ;
-    width:660px;
-    line-height: 21px;
-
+    width:620px;
+    line-height: 24px;
+    font-weight: 400;
 }
 
 .containerb p:last-of-type{
     font-size:16px;
     margin-top:16px ;
-    width:660px;
-    line-height: 21px;
+    width:620px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.containerbtxt{
+    width: 1120px;
+}
+
+.containerbtxt a{
+    color: #11629e;
+    text-underline-offset: 3px;
 }
 
 .containerc>a{
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #11629e;
     margin-top:14px;
     padding:10px 23px;
     border: 1.6px solid #11629e;
     border-radius: 50px;
-    width: 386.05px;
+    width: 386px;
     height: 46px;
     text-align: center;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .containerc{
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 }
 .sponsors{
     display: grid;
@@ -173,15 +235,16 @@ h2{
     align-items: center;
 }
 .containerc{
-    height:279px;
-    
+    height:279px;   
 }
+
 
 .containerd{
     min-height:408px;
     margin-top: 100px;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
+    gap: 100px;
 }
 
 .TPAC{
@@ -197,6 +260,15 @@ h2{
     line-height: 24px;
 }
 
+.TPAC p:nth-child(3){
+    width: 450px;
+}
+
+.TPAC a{
+    text-underline-offset: 3px;
+    color: #11629e;
+}
+
 .visit{
     border: #11629e 1.6px solid;
     padding:10px 23px;
@@ -207,6 +279,10 @@ h2{
     text-decoration: none;
     margin-top: 30px;
     font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #11629e;
 }
 
 abbr{
@@ -217,7 +293,9 @@ abbr{
 .containere{
     height:346px;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
+    gap: 100px;
+    margin-top: 100px;
 }
 
 .webstandard{
@@ -249,7 +327,8 @@ abbr{
     height:341px;
     margin-top: 97px;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
+    gap: 100px;
 }
 
 .getinvolved{
@@ -278,20 +357,176 @@ abbr{
 }
 
 .containerg{
-    background-color:cornflowerblue ;
-    height:147px;
-    margin-top: 98px;
-}
-.containerh{
-    background-color:forestgreen ;
-    height:393px;
-}
-.containerj{
-    background-color: hotpink;
-    height:71px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: white;
+    width: 1100px;
 }
 
-.containeri{
-    background-color:lightcoral ;
+.latest{
+    font-size: 24px;
+    line-height:33.6px;
+}
+
+.containerg p{
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.containerg a{
+    color: white;
+    text-underline-offset: 3px;
+}
+
+.containerh{
+    display: flex;
+    gap: 30px;
+}
+
+.containerh div{
+    width: 253px;
+    height:493px;
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    padding: 17px;
+   
+}
+
+.block1{
+    display: flex;
+    flex-direction: column;
+}
+
+.block1 p:first-of-type{
+    margin-top: 16px;
+    height: 300px;
+    font-size: 16px;
+}
+.block1 p:last-of-type{
+    height: 100px;
+    display: flex;
+    align-items: last baseline;
+    font-size: 16px;
+}
+
+.containerh a{
+    color: black;
+    text-decoration: none;
+}
+
+.containerhg{
+    background-color: #11629e;
+    margin-top: 98px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.block2 h3{
+    height: 100px;
+}
+
+.block2 p:first-of-type{
+    margin-top: 16px;
+    height: 200px;
+    font-size: 16px;
+}
+
+.block2 p:last-of-type{
+    height: 200px;
+    display: flex;
+    align-items: last baseline;
+    font-size: 16px;
+}
+
+.block3{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.block3 h3{
+    height: 200px;
+}
+
+.block3 p:first-of-type{
+    margin-top: 16px;
+    height: 200px;
+    font-size: 16px;
+}
+
+.block3 p:last-of-type{
+    height: 200px;
+    display: flex;
+    align-items: last baseline;
+    font-size: 16px;
+}
+
+.block4{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.block4 h3{
+    height: 150px;
+}
+
+.block4 p:first-of-type{
+    margin-top: 16px;
+    height: 100px;
+    font-size: 16px;
+}
+
+.block4 p:last-of-type{
+    height: 200px;
+    display: flex;
+    align-items: last baseline;
+    font-size: 16px;
+}
+
+.containerj{
     height:71px;
+    width: 1106px;
+}
+
+
+
+.containeri{
+    height:71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1106px;
+}
+
+.left ul{
+    display: flex;
+    gap: 30px;
+}
+
+.right ul{
+    display: flex;
+    gap: 30px;
+}
+
+.left ul a{
+    color:black;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

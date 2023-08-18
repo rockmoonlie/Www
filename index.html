@@ -12,7 +12,7 @@
     <!-- ensuite insérer les éléments des différentes div -->
     <div class="container1">
         <!-- texte avec la balise p pour les paragraphes -->
-        <a>This is a new website.  <a href="##">Give feedback</a> to help us improve it.</p>
+        This is a new website.<a href="##">Give feedback</a> to help us improve it.</p>
     </div>
     <div class="container2">
         <!-- les liens -->
@@ -26,26 +26,44 @@
             <!-- pour utiliser le flex correctement et séparer chacun des éléments
         il faudrait les mettre d'abord dans un sous-parent et ensuite les classer dans des sous-parents -->
             <ul>
-                <li>Standards
-                    <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
-                </li>
-                <li>Groups
-                    <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
-                </li>
-                <li>Get involved
-                    <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
-                </li>
-                <li>Resources
-                    <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
-                </li>
-                <li>New and events
-                    <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
-                </li>
-                <li>About
-                    <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
+                <li>
+                    <button>
+                        Standards
+                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
+                    </button>
                 </li>
                 <li>
-                        <img src="img/W3c/search.svg" width="16" height="16">
+                    <button>
+                        Groups
+                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        Get involved
+                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
+                    </button> 
+                </li>
+                <li>
+                    <button>
+                        Resources
+                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        New and events
+                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
+                    </button>
+                </li>
+                <li>
+                    <button>
+                         About
+                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
+                    </button>
+                </li>
+                <li  class="listimg" >
+                    <a href="https://www.w3.org/help/search/"><img src="img/W3c/search.svg" width="16" height="16"></a>
                 </li>
             </ul>
             <div class="signin">
@@ -69,14 +87,16 @@
     </div>
     <!-- La deuxième section du corps de la page -->
     <div class="containerb">
-        <h2>Working with stakeholders of the Web</h2>
-        <p>A range of organizations join the World Wide Web Consortium as Members to work 
+        <div class="containerbtxt">
+            <h2>Working with stakeholders of the Web</h2>
+            <p>A range of organizations join the World Wide Web Consortium as Members to work 
             with us to drive the direction of core web technologies and exchange ideas with industry 
             and research leaders. We rotate randomly a few of our Member organizations' logos underneath.
-        </p>
-        <p>The Web Consortium and its members, with help from the public and the web community, focus on 
+            </p>
+            <p>The Web Consortium and its members, with help from the public and the web community, focus on 
             a range of business ecosystems that the Web transforms, including <a href="###">E-commerce</a>, <a href="###">Media & Entertainment</a>,
-        <a href="###">Publishing</a>  and several other areas.</p>
+            <a href="###">Publishing</a>  and several other areas.</p>
+        </div>
         <div class="containerc">
             <div class="sponsors">
                 <figure>
@@ -148,64 +168,68 @@
             <a class="waystoget" href="###">Ways to get involved</a>
         </div>
     </div>
-    <div class="containerg">
-        <h2 class="latest">Latest news</h2>
-        <p>Latest entries from across our <a href="###"></a>News<a href="###">
-            Press Releases</a> or <a href="###">Blog</a>.</p>
-    </div>
-    <div class="containerh">
-        <div class="block1">
-            <h3><a href="###" class="draftnote">Draft Note: Vision for W3C</a></h3>
-            <p>The Vision attempts to help the world understand what W3C is, 
-                what it does and why that matters;
-                and in particular to articulate the principles 
-                by which it operates and that guide its decisions.</p>
-            <p>News</p>
+    <div class="containerhg">
+        <div class="containerg">
+            <h2 class="latest">Latest news</h2>
+            <p>Latest entries from across our <a href="###">News,</a> <a href="###">
+                Press Releases</a> or <a href="###">Blog</a>.</p>
         </div>
-        <div class="block2">
-            <h3><a href="###" class="securing">Securing the Web forward:
-                Addressing developer concerns in web security</a></h3>
-            <p>A recent survey affirms the need to drive developer awareness
-                and adoption of Web security standards & practices.</p>
-            <p>Blog</p>
-        </div>
-        <div class="block3">
-            <h3><a href="###" class="webcontent">Web Content Accessibility Guidelines (WCAG) 2.2
-                is a W3C Proposed Recommendation</a></h3>
-            <p></p>
-            <p>News</p>
-        </div>
-        <div class="block4">
-            <h3><a href="###" class="callforreview">Call for Review: WoT Architecture 1.1, Thing Description 1.1 
-                and WoT Discovery are W3C Proposed Recommendations</a></h3>
-            <p></p>
-            <p>News</p>
-        </div>
-    </div>
-    <div class="containeri">
-        <div class="left">
-            <ul>
-                <li>Home</li>
-                <li>Contact</li>
-                <li>Help</li>
-                <li>Sponsor</li>
-                <li>Donate</li>
-                <li>Privacy Policy</li>
-                <li>Legal</li>
-                <li>System Status</li>
-            </ul>
-        </div>
-        <div class="right">
-            <ul>
-                <li><img src="img/W3c/mastodon.svg" alt="mastodon icon"></li>
-                <li><img src="img/W3c/twitter.svg" alt="X old icon"></li>
-                <li><img src="img/W3c/github.svg" alt="github icon"></li>
-            </ul>
+        <div class="containerh">
+            <div class="block1">
+                <h3><a href="###" class="draftnote">Draft Note: Vision for W3C</a></h3>
+                <p>The Vision attempts to help the world understand what W3C is, 
+                    what it does and why that matters;
+                    and in particular to articulate the principles 
+                    by which it operates and that guide its decisions.</p>
+                <p>News</p>
+            </div>
+            <div class="block2">
+                <h3><a href="###" class="securing">Securing the Web forward:
+                    Addressing developer concerns in web security</a></h3>
+                <p>A recent survey affirms the need to drive developer awareness
+                    and adoption of Web security standards & practices.</p>
+                <p>Blog</p>
+            </div>
+            <div class="block3">
+                <h3><a href="###" class="webcontent">Web Content Accessibility Guidelines (WCAG) 2.2
+                    is a W3C Proposed Recommendation</a></h3>
+                <p></p>
+                <p>News</p>
+            </div>
+            <div class="block4">
+                <h3><a href="###" class="callforreview">Call for Review: WoT Architecture 1.1, Thing Description 1.1 
+                    and WoT Discovery are W3C Proposed Recommendations</a></h3>
+                <p></p>
+                <p>News</p>
+            </div>
         </div>
     </div>
-    <div class="containerj">
-        <p>Copyright © 2023 World Wide Web Consortium.
-            W3C® liability, trademark and permissive license rules apply.</p>
+    <div class="footer">
+        <div class="containeri">
+            <div class="left">
+                <ul>
+                    <li><a href="##">Home</a></li>
+                    <li><a href="##">Contact</a></li>
+                    <li><a href="##">Help</a></li>
+                    <li><a href="##">Sponsor</a></li>
+                    <li><a href="##">Donate</a></li>
+                    <li><a href="##">Privacy Policy</a></li>
+                    <li><a href="##">Legal</a></li>
+                    <li><a href="##">System Status</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><img src="img/W3c/mastodon.svg" alt="mastodon icon" width="20"></li>
+                    <li><img src="img/W3c/twitter.svg" alt="X old icon" width="20"></li>
+                    <li><img src="img/W3c/github.svg" alt="github icon" width="20"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="containerj">
+            <p>Copyright © 2023 World Wide Web Consortium.<br>
+                W3C® liability, trademark and permissive license rules apply.</p>
+        </div>
     </div> 
 </body>
 </html>
