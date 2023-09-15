@@ -1,235 +1,593 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/icon-x" href="img/w3c7350.jpg">
-    <link rel="stylesheet" href="style/styles.css">
-    <title>W3C</title>
-</head>
-<body>
-    <!-- créer d'abord les parties principal du site -->
-    <!-- ensuite insérer les éléments des différentes div -->
-    <div class="container1">
-        <!-- texte avec la balise p pour les paragraphes -->
-        This is a new website.<a href="##">Give feedback</a> to help us improve it.</p>
-    </div>
-    <div class="container2">
-        <!-- les liens -->
-        <a href="">日本語ホームページ</a>
-        <a href="">简体中文首页</a>
-    </div>
-    <div class="container3">
-        <!-- le contenaire 3 contient le logo, une liste, une barre de recherche et un lien  -->
-        <img src="img/W3c/w3c-no-bars.svg">
-        <div class="list"> 
-            <!-- pour utiliser le flex correctement et séparer chacun des éléments
-        il faudrait les mettre d'abord dans un sous-parent et ensuite les classer dans des sous-parents -->
-            <ul>
-                <li>
-                    <button>
-                        Standards
-                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        Groups
-                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        Get involved
-                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
-                    </button> 
-                </li>
-                <li>
-                    <button>
-                        Resources
-                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        New and events
-                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
-                    </button>
-                </li>
-                <li>
-                    <button>
-                         About
-                        <img src="img/W3c/arrow-down-sign-to-navigate.png" width="10">
-                    </button>
-                </li>
-                <li  class="listimg" >
-                    <a href="https://www.w3.org/help/search/"><img src="img/W3c/search.svg" width="16" height="16"></a>
-                </li>
-            </ul>
-            <div class="signin">
-                <a href="###">Sign in</a>
-                <img src="img/W3c/avatar.svg" alt="avatar" width="30" height="30">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/icon-x" href="img/w3c7350.jpg">
+        <link rel="stylesheet" href="style/styles.css">
+        <title>W3C</title>
+    </head>
+    <body>
+        <!-- créer d'abord les parties principal du site -->
+        <!-- ensuite insérer les éléments des différentes div -->
+        <div class="container1">
+            <!-- texte avec la balise p pour les paragraphes -->
+            <p>This is a new website. <a href="##">Give feedback</a>to help us improve it.</p>
+        </div>
+        <div class="container2">
+            <!-- les liens -->
+            <a href="">日本語ホームページ</a>
+            <a href="">简体中文首页</a>
+        </div>
+        <label class="ham-menu">
+            <input type="checkbox">
+        </label>
+        <aside class="sidebar">
+            <div class="container3">
+                <!-- le contenaire 3 contient le logo, une liste, une barre de recherche et un lien  -->
+                <img src="img/W3c/w3c-no-bars.svg">
+                <div class="list"> 
+                    <!-- pour utiliser le flex correctement et séparer chacun des éléments
+                il faudrait les mettre d'abord dans un sous-parent et ensuite les classer dans des sous-parents -->
+                <!-- Essayons le menu hamburger -->
+                    <ul>
+                        <li>
+                            <div class="dropdown1">
+                               <button class="focus">
+                                Standards
+                                <img src="img/icons8-dropdown-26.png" width="10">
+                                </button> 
+                                <div class="content1">
+                                    <div class="column1 columna">
+                                        <h1>Standards</h1>
+                                        <p>Understand the various specifications,
+                                            their maturity levels on the web standards track, 
+                                            and their adoption.</p>
+                                        <a href="###">Explore web standards</a>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                About W3C web standards
+                                            </a> 
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                W3C standards and drafts
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Types of documents W3C publishes
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                               <img src="img/right-arrow.png" alt="icon">
+                                                Translations of W3C standards and drafts 
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Reviews and public feedback
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Liaisons
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Promote web standards
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- second dropdown menu -->
+                        <li>
+                            <div class="dropdown1">
+                                <button class="focus">
+                                    Groups
+                                    <img src="img/icons8-dropdown-26.png" width="10">
+                                </button>
+                                <div class="content1">
+                                    <div class="column1 columna">
+                                        <h1>Groups</h1>
+                                        <p>A variety of groups develop Web Standards, guidelines, or supporting materials.</p>
+                                        <a href="###">About W3C groups</a>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Working Groups
+                                            </a> 
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Interest Groups
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Community Groups
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Business Groups
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                               <img src="img/right-arrow.png" alt="icon">
+                                               Technical Architecture Group 
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Invited Experts
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Participant guidebook
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Positive work environment
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </li>
+                        <!-- third dropdown menu -->
+                        <li>
+                            <div class="dropdown1">
+                                <button class="focus">
+                                    Get involved
+                                    <img src="img/icons8-dropdown-26.png" width="10">
+                                </button>
+                                <div class="content1">
+                                    <div class="column1 columna">
+                                        <h1>Get involved</h1>
+                                        <p>W3C works at the nexus of core technology, industry needs, and societal needs.</p>
+                                        <a href="###">Find ways to get involved</a>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Business ecosystems
+                                            </a> 
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Why join W3C
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Member Home
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                               <img src="img/right-arrow.png" alt="icon">
+                                               Mailing lists
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Donate
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Sponsoring W3C
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown1">
+                                <button class="focus">
+                                    Resources
+                                    <img src="img/icons8-dropdown-26.png" width="10">
+                                </button>
+                                <div class="content1">
+                                    <div class="column1 columna">
+                                        <h1>Resources</h1>
+                                        <p>Master Web fundamentals, use our developer tools, or contribute code.</p>
+                                        <a href="###">Learn from W3C resources</a>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Developers
+                                            </a> 
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Validators and tools
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Accessibility fundamentals
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                               <img src="img/right-arrow.png" alt="icon">
+                                               Internationalization
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Translations of W3C standards and drafts
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Code of conduct
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown1">
+                                <button class="focus">
+                                    News and events
+                                    <img src="img/icons8-dropdown-26.png" width="10">
+                                </button>
+                                <div class="content1">
+                                    <div class="column1 columna">
+                                        <h1>News and events</h1>
+                                        <p>Recent content across news, blogs, press releases, media; upcoming events.</p>
+                                        <a href="###">Follow news and events</a>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                News
+                                            </a> 
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Blog
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Press releases
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                               <img src="img/right-arrow.png" alt="icon">
+                                               Press and media
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Events
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Annual W3C Conference (TPAC)
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown1">
+                                <button class="focus">
+                                    About
+                                    <img src="img/icons8-dropdown-26.png" width="10">
+                                </button>
+                                <div class="content1">
+                                    <div class="column1 columna">
+                                        <h1>About</h1>
+                                        <p>Understand our values and principles, learn our history, look into our policies, meet our people.</p>
+                                        <a href="###">Find out more about us</a>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Our mission
+                                            </a> 
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Leadership
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Staff
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Evangelists
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Careers
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column1 columa">
+                                        <div>
+                                            <a href="###">
+                                               <img src="img/right-arrow.png" alt="icon">
+                                               Diversity
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Sponsoring W3C
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Media kit
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                               <img src="img/right-arrow.png" alt="icon">
+                                               Contact
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Positive work environment
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Policies and legal information
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="###">
+                                                <img src="img/right-arrow.png" alt="icon">
+                                                Help
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </li>
+                        <li  class="listimg" >
+                            <a href="https://www.w3.org/help/search/"><img src="img/W3c/search.svg" width="16" height="15"></a>
+                        </li>
+                    </ul>
+                    <div class="signin">
+                        <a href="###">Sign in</a>
+                        <img src="img/W3c/avatar.svg" alt="avatar" width="35" height="35">
+                    </div>
+                </div>
+            </div> 
+        </aside>
+        <!-- la première section -->
+        <div class="containera">
+            <div class="webwork">
+                <h1>Making the Web work</h1>
+                <p>
+                    The World Wide Web Consortium (W3C) develops <a href="###">standards and 
+                        guidelines</a> to help everyone build a web based on the principles
+                    of <a href="###">accessibility</a>, <a href="###">internationalization</a>, <a href="###">privacy</a> and <a href="###">security</a>.
+                </p>
+                <a href="###">Read more about W3C</a>
+            </div>
+            <img src="img/W3c/groups.svg" alt="groups" width="500" height="285">
+        </div>
+        <!-- La deuxième section du corps de la page -->
+        <div class="containerb">
+            <div class="containerbtxt">
+                <h2>Working with stakeholders of the Web</h2>
+                <p>A range of organizations join the World Wide Web Consortium as Members to work 
+                with us to drive the direction of core web technologies and exchange ideas with industry 
+                and research leaders. We rotate randomly a few of our Member organizations' logos underneath.
+                </p>
+                <p>The Web Consortium and its members, with help from the public and the web community, focus on 
+                a range of business ecosystems that the Web transforms, including <a href="###">E-commerce</a>, <a href="###">Media & Entertainment</a>,
+                <a href="###">Publishing</a>  and several other areas.</p>
+            </div>
+            <div class="containerc">
+                <div class="sponsors">
+                    <figure>
+                        <img src="img/sponsors1.png" alt="sponsor" width="122">
+                    </figure>
+                    <figure>
+                        <img src="img/sponsors2.png" alt="sponsor" width="122">
+                    </figure>
+                    <figure>
+                        <img src="img/sponsors3.png" alt="sponsor" width="122">
+                    </figure>
+                    <figure>
+                        <img src="img/sponsors4.png" alt="sponsor" width="122">
+                    </figure>
+                    <figure>
+                        <img src="img/sponsors5.png" alt="sponsor" width="122">
+                    </figure>
+                    <figure>
+                        <img src="img/sponsors6.png" alt="sponsor" width="122">
+                    </figure>
+                </div>
+                <a href="###">Discover how W3C supports these organizations</a>
             </div>
         </div>
-    </div> 
-    <!-- la première section -->
-    <div class="containera">
-        <div class="webwork">
-            <h1>Making the Web work</h1>
-            <p>
-                The World Wide Web Consortium (W3C) develops <a href="###">standards and 
-                    guidelines</a> to help everyone build a web based on the principles
-                of <a href="###">accessibility</a>, <a href="###">internationalization</a>, <a href="###">privacy</a> and <a href="###">security</a>.
-            </p>
-            <a href="###">Read more about W3C</a>
-        </div>
-        <img src="img/W3c/groups.svg" alt="groups" width="500" height="285">
-    </div>
-    <!-- La deuxième section du corps de la page -->
-    <div class="containerb">
-        <div class="containerbtxt">
-            <h2>Working with stakeholders of the Web</h2>
-            <p>A range of organizations join the World Wide Web Consortium as Members to work 
-            with us to drive the direction of core web technologies and exchange ideas with industry 
-            and research leaders. We rotate randomly a few of our Member organizations' logos underneath.
-            </p>
-            <p>The Web Consortium and its members, with help from the public and the web community, focus on 
-            a range of business ecosystems that the Web transforms, including <a href="###">E-commerce</a>, <a href="###">Media & Entertainment</a>,
-            <a href="###">Publishing</a>  and several other areas.</p>
-        </div>
-        <div class="containerc">
-            <div class="sponsors">
-                <figure>
-                    <img src="img/sponsors1.png" alt="sponsor" width="122">
-                </figure>
-                <figure>
-                    <img src="img/sponsors2.png" alt="sponsor" width="122">
-                </figure>
-                <figure>
-                    <img src="img/sponsors3.png" alt="sponsor" width="122">
-                </figure>
-                <figure>
-                    <img src="img/sponsors4.png" alt="sponsor" width="122">
-                </figure>
-                <figure>
-                    <img src="img/sponsors5.png" alt="sponsor" width="122">
-                </figure>
-                <figure>
-                    <img src="img/sponsors6.png" alt="sponsor" width="122">
-                </figure>
+        <!-- Là on va entamer la troisième section de la page -->
+        <!-- Essayons de mettre chacun de ces éléments en display flex puis y ajouter un flex direction 
+        c'est pour séparer les éléments facilement-->
+        <div class="containerd">
+            <div class="TPAC">
+                <h1 style="font-size:34px">W3C TPAC 2023</h1>
+                <p>The W3C annual conference is an important event for 
+                    the Web community. <abbr title="Technical Plenary and Advisory Commity">TPAC</abbr> gathers in a single event the W3C
+                    Members and Boards, W3C Working and Interest Groups meetings,
+                    and a series of one-hour sessions brought by the attendees.
+                </p>
+                <p>This well-attended and popular event is an important
+                    means for W3C to coordinate solutions to technical issues that 
+                    transcend group borders.</p>
+                <p>Watch our short <a href="###">video</a> to learn more about TPAC.</p>
+                <a class="visit" href="###">Visit this year's event page</a>
             </div>
-            <a href="###">Discover how W3C supports these organizations</a>
+            <img src="img/W3c/tpac2023-home.jpg" alt="" width="504" height="335.81">
         </div>
-    </div>
-    <!-- Là on va entamer la troisième section de la page -->
-    <!-- Essayons de mettre chacun de ces éléments en display flex puis y ajouter un flex direction 
-    c'est pour séparer les éléments facilement-->
-    <div class="containerd">
-        <div class="TPAC">
-            <h1 style="font-size:34px">W3C TPAC 2023</h1>
-            <p>The W3C annual conference is an important event for 
-                the Web community. <abbr title="Technical Plenary and Advisory Commity">TPAC</abbr> gathers in a single event the W3C
-                Members and Boards, W3C Working and Interest Groups meetings,
-                and a series of one-hour sessions brought by the attendees.
-            </p>
-            <p>This well-attended and popular event is an important
-                means for W3C to coordinate solutions to technical issues that 
-                transcend group borders.</p>
-            <p>Watch our short <a href="###">video</a> to learn more about TPAC.</p>
-            <a class="visit" href="###">Visit this year's event page</a>
-        </div>
-        <img src="img/W3c/tpac2023-home.jpg" alt="" width="504" height="335.81">
-    </div>
-    <!-- Avec cette section aussi je vais essayer de faire un flex, flex-direction
-    et voir comment les blocs réagissent -->
-    <div class="containere">
-        <img src="img/W3c/ryan-quintal-US9Tc9pKNBU-unsplash.jpg" alt="lego" width="504" height="336">
-    <!-- le faire surtout avec ce bloc -->
-        <div class="webstandard">
-            <h2 >Web Standards</h2>
-            <p>Web standards are the building blocks of a consistent digitally connected world. 
-                They are implemented in browsers, blogs, search engines, and other software that power 
-                our experience on the Web.</p>
-            <p>W3C is an international community where <a href="###">Member</a>, a full-time <a href="###">staff</a>, 
-                and the public work together to develop web standards</p>
-            <a class="learnmore" href="###">Learn more about Web standards</a>
-        </div>
-    </div>
-    <div class="containerf">
-    <!-- reprendre l'action précédente -->
-        <img src="img/W3c/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="computer" width="504" height="335">
-        <div class="getinvolved">
-            <h2>Get involved</h2>
-            <p>W3C works at the nexus of core technology, industry needs, and 
-                societal needs. Everyone can get involved with the work we do.
-            </p>
-            <p>There are many ways individuals and organizations can participate
-                in the Web Consortium to advance web standardization.</p>
-            <a class="waystoget" href="###">Ways to get involved</a>
-        </div>
-    </div>
-    <div class="containerhg">
-        <div class="containerg">
-            <h2 class="latest">Latest news</h2>
-            <p>Latest entries from across our <a href="###">News,</a> <a href="###">
-                Press Releases</a> or <a href="###">Blog</a>.</p>
-        </div>
-        <div class="containerh">
-            <div class="block1">
-                <h3><a href="###" class="draftnote">Draft Note: Vision for W3C</a></h3>
-                <p>The Vision attempts to help the world understand what W3C is, 
-                    what it does and why that matters;
-                    and in particular to articulate the principles 
-                    by which it operates and that guide its decisions.</p>
-                <p>News</p>
-            </div>
-            <div class="block2">
-                <h3><a href="###" class="securing">Securing the Web forward:
-                    Addressing developer concerns in web security</a></h3>
-                <p>A recent survey affirms the need to drive developer awareness
-                    and adoption of Web security standards & practices.</p>
-                <p>Blog</p>
-            </div>
-            <div class="block3">
-                <h3><a href="###" class="webcontent">Web Content Accessibility Guidelines (WCAG) 2.2
-                    is a W3C Proposed Recommendation</a></h3>
-                <p></p>
-                <p>News</p>
-            </div>
-            <div class="block4">
-                <h3><a href="###" class="callforreview">Call for Review: WoT Architecture 1.1, Thing Description 1.1 
-                    and WoT Discovery are W3C Proposed Recommendations</a></h3>
-                <p></p>
-                <p>News</p>
+        <!-- Avec cette section aussi je vais essayer de faire un flex, flex-direction
+        et voir comment les blocs réagissent -->
+        <div class="containere">
+            <img src="img/W3c/ryan-quintal-US9Tc9pKNBU-unsplash.jpg" alt="lego" width="504" height="336">
+        <!-- le faire surtout avec ce bloc -->
+            <div class="webstandard">
+                <h2 >Web Standards</h2>
+                <p>Web standards are the building blocks of a consistent digitally connected world. 
+                    They are implemented in browsers, blogs, search engines, and other software that power 
+                    our experience on the Web.</p>
+                <p>W3C is an international community where <a href="###">Member</a>, a full-time <a href="###">staff</a>, 
+                    and the public work together to develop web standards</p>
+                <a class="learnmore" href="###">Learn more about Web standards</a>
             </div>
         </div>
-    </div>
-    <div class="footer">
-        <div class="containeri">
-            <div class="left">
-                <ul>
-                    <li><a href="##">Home</a></li>
-                    <li><a href="##">Contact</a></li>
-                    <li><a href="##">Help</a></li>
-                    <li><a href="##">Sponsor</a></li>
-                    <li><a href="##">Donate</a></li>
-                    <li><a href="##">Privacy Policy</a></li>
-                    <li><a href="##">Legal</a></li>
-                    <li><a href="##">System Status</a></li>
-                </ul>
-            </div>
-            <div class="right">
-                <ul>
-                    <li><img src="img/W3c/mastodon.svg" alt="mastodon icon" width="20"></li>
-                    <li><img src="img/W3c/twitter.svg" alt="X old icon" width="20"></li>
-                    <li><img src="img/W3c/github.svg" alt="github icon" width="20"></li>
-                </ul>
+        <div class="containerf">
+        <!-- reprendre l'action précédente -->
+            <img src="img/W3c/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="computer" width="504" height="335">
+            <div class="getinvolved">
+                <h2>Get involved</h2>
+                <p>W3C works at the nexus of core technology, industry needs, and 
+                    societal needs. Everyone can get involved with the work we do.
+                </p>
+                <p>There are many ways individuals and organizations can participate
+                    in the Web Consortium to advance web standardization.</p>
+                <a class="waystoget" href="###">Ways to get involved</a>
             </div>
         </div>
-        <div class="containerj">
-            <p>Copyright © 2023 World Wide Web Consortium.<br>
-                W3C® liability, trademark and permissive license rules apply.</p>
+        <div class="containerhg">
+            <div class="containerg">
+                <h2 class="latest">Latest news</h2>
+                <p>Latest entries from across our <a href="###">News,</a> <a href="###">
+                    Press Releases</a> or <a href="###">Blog</a>.</p>
+            </div>
+            <div class="containerh">
+                <div class="block1">
+                    <h3><a href="###" class="news">Draft Note: Vision for W3C</a></h3>
+                    <p><a href="###">The Vision attempts to help the world understand what W3C is, 
+                        what it does and why that matters;
+                        and in particular to articulate the principles 
+                        by which it operates and that guide its decisions.</a></p>
+                    <p><a href="###">News</a></p>
+                </div>
+                <div class="block2">
+                    <h3><a href="###" class="news">Securing the Web forward:
+                        Addressing developer concerns in web security</a></h3>
+                    <p><a href="###">A recent survey affirms the need to drive developer awareness
+                        and adoption of Web security standards & practices.</a></p>
+                    <p><a href="###">Blog</a></p>
+                </div>
+                <div class="block3">
+                    <h3><a href="###" class="news">>Web Content Accessibility Guidelines (WCAG) 2.2
+                        is a W3C Proposed Recommendation</a></h3>
+                    <p><a href="###"></a></p>
+                    <p><a href="###">News</a></p>
+                </div>
+                <div class="block4">
+                    <h3><a href="###" class="news">Call for Review: WoT Architecture 1.1, Thing Description 1.1 
+                        and WoT Discovery are W3C Proposed Recommendations</a></h3>
+                    <p><a href="###"></a></p>
+                    <p><a href="###">News</a></p>
+                </div>
+            </div>
         </div>
-    </div> 
-</body>
+        <div class="footer">
+            <div class="containeri">
+                <div class="left">
+                    <ul>
+                        <li><a href="##">Home</a></li>
+                        <li><a href="##">Contact</a></li>
+                        <li><a href="##">Help</a></li>
+                        <li><a href="##">Sponsor</a></li>
+                        <li><a href="##">Donate</a></li>
+                        <li><a href="##">Privacy Policy</a></li>
+                        <li><a href="##">Legal</a></li>
+                        <li><a href="##">System Status</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><img src="img/W3c/mastodon.svg" alt="mastodon icon" width="20"></li>
+                        <li><img src="img/W3c/twitter.svg" alt="X old icon" width="20"></li>
+                        <li><img src="img/W3c/github.svg" alt="github icon" width="20"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="containerj">
+                <p>Copyright © 2023 <a href="###">World Wide Web Consortium</a> .<br>
+                    <abbr title=">World Wide Web Consortium"> W3C</abbr><sup>®</sup> <a href="###">liability</a>, <a href="###">trademark</a> and <a href="###">permissive license</a> rules apply.</p>
+            </div>
+        </div> 
+    </body>
 </html>
